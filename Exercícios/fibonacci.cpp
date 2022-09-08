@@ -5,12 +5,13 @@ A série é formada pela sequência: 1, 1, 2, 3, 5, 8, 13, 21, etc.    */
 using namespace std;
 
 int main() {
-    int fib, a, b;
+    int fib = 0, a = 0, b = 1;
 
-    for (int i = 0; i < 15; i++) {
+    cout << 1 << "\n";
+    for (int i = 1; i < 15; i++) {
         fib = a + b;
         a = b;
-        b = a;
+        b = a;     
 
         cout << i << "\n";
     }

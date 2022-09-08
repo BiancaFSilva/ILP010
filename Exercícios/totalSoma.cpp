@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    int soma; 
+    int soma = 0; 
     
     for (int i = 1; i < 100; i++) {
-        soma = soma + i;
+        soma += i;
         cout << soma << "\n";
     }
     cout << "A soma entre os numeros de 1 a 100 e: " << soma;

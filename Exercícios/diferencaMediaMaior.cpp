@@ -1,3 +1,4 @@
+
 // Faça um programa que leia 15 valores e informe o valor da diferença entre a média eo maior valor
 
 #include <iostream>
@@ -23,5 +24,5 @@ int main() {
     diferenca = media - maior; 
 
     cout << "A media entre os 15 valores digitados e " << media;
-    cout << "A diferenca entre o maior numero (" << maior << ") e a media e de " << diferenca;
+    cout << "\nA diferenca entre o maior numero (" << maior << ") e a media e de " << diferenca;
 }
