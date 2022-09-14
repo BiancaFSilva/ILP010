@@ -30,10 +30,10 @@ int main() {
     cout << "\nO volume do segundo cilindro e de " << v1;
 
     if (v > v1) {
-        cout << "\n\nO volume do primeiro cilindro e maior que o do segundo cilindro" << v;
+        cout << "\n\nO volume do primeiro cilindro e maior que o do segundo cilindro";
     } else if (v < v1) {
-        cout << "\n\nO volume do segundo cilindro e maior que o do primeiro cilindro" << v;
+        cout << "\n\nO volume do segundo cilindro e maior que o do primeiro cilindro";
     } else {
-        cout << "\n\nOs volumes dos cilindros sao equivalentes" << v;
+        cout << "\n\nOs volumes dos cilindros sao equivalentes";
     }
 }

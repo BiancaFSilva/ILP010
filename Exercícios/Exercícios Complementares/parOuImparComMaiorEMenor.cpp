@@ -23,13 +23,13 @@ int main() {
         cout << "\n\nO numero " << n << " e impar";
 
         if (n < 50) {
-            cout << "Esse numero e maior que 15";
+            cout << "\nEsse numero e menor que 50";
         } 
     } else {
         cout << "\n\nO numero " << n << " e par";
 
         if (n > 15) {
-            cout << "Esse numero e maior que 15";
+            cout << "\nEsse numero e maior que 15";
         } 
     }
 }

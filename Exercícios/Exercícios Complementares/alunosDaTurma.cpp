@@ -18,17 +18,15 @@ int main () {
     cout << "Digite o numero de alunas: ";
     cin >> as;
 
-    // Comparacao e apresentação dos resultados
-    cout << "Existem " << os << " alunos";
-    cout << "Existem " << as << " alunas";
-
+    // Comparacao
     if ( os > as) {
         cout << "\n\nHa mais alunos. ";
     } else if (os < as) {
         cout << "\n\nHa mais alunas. ";
     } else {
-        cout << "\n\nO numero de alunos e alunas e igual. ";
+        cout << "\n\nO numero de alunos e alunas e equivalente. ";
     }
     
-    cout << "\nExistem ao todo " << (os + as) << " alunos nesa turma.";
+    // Apresentação dos resultados
+    cout << "\nExistem ao todo " << (os + as) << " alunos nesa turma, sendo " << os << " o numero de alunos e " << as << " o numero de alunas.";
 }

@@ -16,7 +16,7 @@ int main () {
     cout << "Digite um numero: ";
     cin >> num;
 
-    for (int i = 0; i <= 6; i++) {
+    for (int i = 1; i <= 6; i++) {
         resp = num * i;
 
         // Apresentação dos resultados        

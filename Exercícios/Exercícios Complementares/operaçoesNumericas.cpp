@@ -24,10 +24,10 @@ int main () {
     media = (num1 + num2) / 2;
 
     // Apresentação dos resultados
-    cout << "\n\nResultados das operacoes";
+    cout << "\n\nResultados das operacoes\n";
     cout << "\n\t" << num1 << " + " << num2 << " = " << (num1 + num2);
     cout << "\n\t" << num1 << " - " << num2 << " = " << (num1 - num2);
     cout << "\n\t" << num1 << " x " << num2 << " = " << (num1 * num2);
     cout << "\n\t" << num1 << " : " << num2 << " = " << (num1 / num2);
-    cout << "\n\tA media entre " << num1 << " e " << num2 << " e " << media;
+    cout << "\n\nA media entre " << num1 << " e " << num2 << " e igual a " << media;
 }

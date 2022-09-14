@@ -16,7 +16,7 @@ int main () {
     cout << "Bianca Leticia Floriano da Silva\n\n\n";
 
     // Início da lógica de programação
-    cout << "Atencao a taxa minima por corrida e de R$ " << m;
+    cout << "Atencao a TAXA MINIMA por corrida e de R$ " << m;
     cout << "\n\nInforme um numero da bandeira (1 ou 2): ";
     cin >> b;
     cout << "Informe a distancia percorrida em quilometros: ";

@@ -21,7 +21,7 @@ int main () {
     cin >> marcaC;
 
     // Apresentação dos resultados
-    cout << "\n\nQuantidade de chuteiras em estoque";
+    cout << "\n\nQuantidade de chuteiras em estoque\n";
     cout << "\n\tMarca <A)\tMarca (B)\tMarca (C)";
-    cout << "\n\t" << marcaA << "\t" << marcaB << "\t" << marcaC;
+    cout << "\n\t   " << marcaA << "\t\t   " << marcaB << "\t\t   " << marcaC;
 }

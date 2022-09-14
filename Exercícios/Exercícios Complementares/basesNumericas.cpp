@@ -18,6 +18,6 @@ int main () {
     cin >> num;   
 
     // Apresentação dos resultados
-    printf("\n\nNumero %d na base octal: %o ", num, num);
-    printf("\nNumero %d na base hexadecimal: %x ", num, num);
+    cout << "\n\nNumero " << num << " na base octal: " << std::oct << num;
+    cout << "\nNumero "  << std::dec << num << " na base hexadecimal: " << std::hex << num;
 }

@@ -1,4 +1,4 @@
-// screva um programa em C que apresente a tabuada de um número qualquer, apresentando a tela
+// screva um programa em C que apresente a tabuada de um número qualquer
 
 #include <iostream>
 using namespace std;
@@ -16,12 +16,12 @@ int main () {
     cout << "Informe um numero inteiro: ";
     cin >> num;
 
-    cout << "\n\nTabuada do " << num;
+    cout << "\n\nTABUADA DO " << num << "\n";
 
-    for (int i = 0; i <= 15; i++) {
+    for (int i = 1; i <= 10; i++) {
         resp = num * i;
 
         // Apresentação dos resultados        
-        cout << "\n\t" << num << " x " << i << " = " << resp;
+        cout << "\n\t " << num << " x " << i << " = " << resp;
     }    
 }

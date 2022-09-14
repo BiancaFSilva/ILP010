@@ -13,7 +13,7 @@ int main () {
     cout << "Bianca Leticia Floriano da Silva\n\n\n";
 
     // Início da lógica de programação
-    for (int i = 0; i <= 15; i++) {
+    for (int i = 1; i <= 10; i++) {
         resp = 3 * i;
 
         // Apresentação dos resultados

@@ -32,11 +32,11 @@ int main () {
     // Calculo do preço da corrida
     corrida = d * v;
 
-    cout << "\n\nO taxi oferecia desconto? (1 - Sim / 2 - Nao)";
+    cout << "\n\nO taxi oferecia um desconto de 30%? (1 - Sim / 2 - Nao) ";
     cin >> t;
 
     if (t == 1) {
-        corrida = corrida * 0.3;
+        corrida = corrida * 0.7;
     } 
 
     if (corrida < m) {
