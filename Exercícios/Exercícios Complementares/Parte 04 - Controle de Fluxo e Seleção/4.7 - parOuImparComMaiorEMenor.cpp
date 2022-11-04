@@ -1,7 +1,3 @@
-/*  Faça um programa que receba um número inteiro e que verifique se esse número é par ou ímpar. O programa deve informar:
-    • se o número é par, caso afirmativo informar também se ele é maior que 15
-    • se o número é ímpar, caso afirmativo se ele é menor que 50  */
-
 #include <iostream>
 using namespace std;
 

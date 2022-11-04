@@ -1,5 +1,3 @@
-//  Desenvolva um programa para calcular e escrever a área e o perímetro de um quadrado. Dados de entrada: tamanho do lado (tipo da variável: numérico inteiro, valor em centímetros).
-
 #include <iostream>
 using namespace std;
 

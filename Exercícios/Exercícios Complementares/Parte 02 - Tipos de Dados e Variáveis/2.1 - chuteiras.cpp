@@ -1,5 +1,3 @@
-// Escreva um programa que leia o número de chuteiras de uma loja de esporte. Os valores deverão ser inseridos por meio do teclado. Como saída, o programa deve apresentar o número de chuteiras e suas marcas (marca A, marca B e marca C).
-
 #include <iostream>
 using namespace std;
 

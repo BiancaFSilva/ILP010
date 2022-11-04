@@ -1,5 +1,3 @@
-// Desenvolva um programa para comparar a idade de Pedro, de Joana e de Ismael e informar quem é o mais velho. Dados de entrada: idade de Pedro, de Joana e de Ismael (tipo das variáveis: inteiro, e valor em anos). Considere que essas pessoas possuem idades diferentes. 
-
 #include <iostream>
 using namespace std;
 

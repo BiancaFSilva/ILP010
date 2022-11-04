@@ -1,5 +1,3 @@
-// Faça um programa que receba um número inteiro e que verifique se esse número é par ou se é ímpar. O programa deve informar ao usuário o número apenas se for par e maior que 15 e se for ímpar apenas se for menor que 50. 
-
 #include <iostream>
 using namespace std;
 
@@ -17,9 +15,9 @@ int main() {
     cin >> n;
 
     // Apresentação dos resultados 
-    if ((n % 2 == 1) && (n < 50)) {
+    if (n % 2 == 1) {
         cout << "\n\nO numero " << n << " e impar";
-    } else if ((n % 2 == 0) && (n > 15)) {
-        cout << "\n\nO numero " << n << " e par";          
+    } else {
+        cout << "\n\nO numero " << n << " e par";
     }
 }

@@ -17,7 +17,7 @@ int main () {
     cin >> as;
 
     // Comparacao
-    if ( os > as) {
+    if (os > as) {
         cout << "\n\nO numero de alunos e: " << os;
         cout << "\nO numero de alunas e: " << as;
     } else if (as > os) {

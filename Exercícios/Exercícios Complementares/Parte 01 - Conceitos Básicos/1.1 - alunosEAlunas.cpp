@@ -1,5 +1,3 @@
-// Execute novamente o programa, de modo que seja apresentado primeiro o número de alunas e depois o número de alunos. 
-
 #include <iostream>
 using namespace std;
 
@@ -13,12 +11,12 @@ int main () {
     cout << "Bianca Leticia Floriano da Silva\n\n\n";
 
     // Início da lógica de programação
+    cout << "Digite o numero de alunos: ";
+    cin >> num_alunos;
     cout << "Digite o numero de alunas: ";
     cin >> num_alunas;
-    cout << "Digite o numero de alunos: ";
-    cin >> num_alunos;    
 
     // Apresentação dos resultados
-    cout << "\n\nNumero de alunas matriculadas: " << num_alunas;
-    cout << "\nNumero de alunos matriculados: " << num_alunos;
+    cout << "\n\nNumero de alunos matriculados: " << num_alunos;
+    cout << "\nNumero de alunas matriculadas: " << num_alunas;
 }

@@ -2,21 +2,21 @@
 using namespace std;
 
 int main () {
-    // Declaração de variáveis
+    // Declaraï¿½ï¿½o de variï¿½veis
     int i, n;
 
-    // Cabeçalho
+    // Cabeï¿½alho
     cout << "Fatec Sao Caetano do Sul - Antonio Russo\n";
     cout << "ADSMA2, ILP010 - Linguagem de Programacao\n";
     cout << "Bianca Leticia Floriano da Silva\n\n\n";
 
-    // Início da lógica de programação   
+    // Inï¿½cio da lï¿½gica de programaï¿½ï¿½o   
     for (i = 1; i <= 9; i++) {
     	cout << "\n\n\tTABUADA DO " << i << "\n";
     	
     	for (n = 1; n <= 10; n++) {
-    		// Apresentação dos resultados        
+    		// Apresentaï¿½ï¿½o dos resultados        
         	cout << "\n\t " << i << " x " << n << " = " << i * n;
-		}
+		  }
     }    
 }

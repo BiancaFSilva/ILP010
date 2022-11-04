@@ -1,5 +1,3 @@
-// Escreva um programa que leia o n�mero de alunos e de alunas de uma sala. Como sa�da, o programa deve apresentar o n�mero de alunos e em seguida o de alunas
-
 #include <iostream>
 using namespace std;
 
@@ -13,12 +11,12 @@ int main () {
     cout << "Bianca Leticia Floriano da Silva\n\n\n";
 
     // Início da lógica de programação
-    cout << "Digite o numero de alunos: ";
-    cin >> num_alunos;
     cout << "Digite o numero de alunas: ";
     cin >> num_alunas;
+    cout << "Digite o numero de alunos: ";
+    cin >> num_alunos;    
 
     // Apresentação dos resultados
-    cout << "\n\nNumero de alunos matriculados: " << num_alunos;
-    cout << "\nNumero de alunas matriculadas: " << num_alunas;
+    cout << "\n\nNumero de alunas matriculadas: " << num_alunas;
+    cout << "\nNumero de alunos matriculados: " << num_alunos;
 }

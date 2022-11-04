@@ -1,7 +1,3 @@
-/*  Escreva um programa que solicite ao usuário dois números inteiros diferentes de zero. 
-    Com esses números imprima na tela: a soma, a subtração, o produto, a divisão e a média. */
-
-
 #include <iostream>
 using namespace std;
 

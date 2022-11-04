@@ -1,5 +1,3 @@
-// Desenvolva um programa para calcular e para comparar a área de dois retângulos A e B. O programa deverá informar qual retângulo possui a maior área ou se possuem tamanhos iguais. Dados de entrada: tamanho da base e da altura (tipo das variáveis: inteiro, valor em centímetros).
-
 #include <iostream>
 using namespace std;
 

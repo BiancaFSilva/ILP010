@@ -1,11 +1,9 @@
-// Escreva um programa em C que apresente a tabuada do número 3,
-
 #include <iostream>
 using namespace std;
 
 int main () {
     // Declaração de variáveis
-    int resp;
+    int l, a, p;
 
     // Cabeçalho
     cout << "Fatec Sao Caetano do Sul - Antonio Russo\n";
@@ -13,10 +11,14 @@ int main () {
     cout << "Bianca Leticia Floriano da Silva\n\n\n";
 
     // Início da lógica de programação
-    for (int i = 1; i <= 10; i++) {
-        resp = 3 * i;
+    cout << "Digite o lado da figura (em cm): ";
+    cin >> l;
 
-        // Apresentação dos resultados
-        cout << "3 x " << i << " = " << resp;
-    }    
+    // Cálculos
+    a = l * l;  
+    p = l * 4;
+
+    // Apresentação dos resultados
+    cout << "\n\nA area do quadrado formado equivale a: " << a << "cm. ";
+    cout << "\nO perimetro da figura e de: " << p << "cm. ";
 }

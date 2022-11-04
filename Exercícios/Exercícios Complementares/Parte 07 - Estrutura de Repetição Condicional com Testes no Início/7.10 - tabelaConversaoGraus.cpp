@@ -7,7 +7,7 @@ int main() {
         // Cabeï¿½alho
     cout << "Fatec Sao Caetano do Sul - Antonio Russo\n";
     cout << "ADSMA2, ILP010 - Linguagem de Programacao\n";
-    cout << "Bianca Letícia Floriano da Silva\n\n\n";
+    cout << "Bianca Letï¿½cia Floriano da Silva\n\n\n";
 
     // Inï¿½cio da lï¿½gica de programaï¿½ï¿½o
     for (c = 50; c <= 65; c++) {
