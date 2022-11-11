@@ -45,7 +45,7 @@ int main() {
 	}
 		
 	// Apresentação dos resultados 
-	cout << "\n\nRESUMO"
+	cout << "\n\nRESUMO";
 	for (int i = 0; i < 10; i++) {
 		cout << "\nA menor nota do " << (i + 1) << ".o aluno e: " << m[i];
 	}	

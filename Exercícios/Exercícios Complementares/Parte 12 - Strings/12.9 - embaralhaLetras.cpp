@@ -12,21 +12,22 @@ void cabecalho() {
 int main () {
 	// Declaração de variáveis
 	char f[60], e[60], op;
-	int aux;
+	int aux, i, c;
 	
 	// Início da lógica de programação
 	do {	
 		// Cabeçalho
 		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
 		cout << "Digite uma frase: ";
-		cin >> f;
+		gets(f);
 		
-		for (int i = 0, c = 0, aux = 0; i < 60; i++, c++) {
+		for (i = 0, c = 0, aux = 0; i < 60; i++, c++) {
 			if ((f[i] != ' ') && (f[i] != '\0')) {
 				e[c] = f[i];
-			} else if (e[c] != '\0') {
+			} else if (e[c - 1] != '\0') {
 				if (i - aux == 4) {
 					e[aux + 1] = f[aux + 2];
 					e[aux + 2] = f[aux + 1];
@@ -67,7 +68,5 @@ int main () {
 			cout << "Dados invalidos! Deseja inserir outra frase? (S/N) ";
 			cin >> op;
 		}
-		
-		getchar();
 	} while (op == 'S' || op == 's');
 }

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 using namespace std;
 
 void cabecalho() {
@@ -11,7 +11,9 @@ void cabecalho() {
 int contaCaractere (char *aux) {
 	int i = 0;
 	
-	while (aux[i] != '\0') { i++; }
+	while (aux[i] != '\0') { 
+		i++; 
+	}
 	return i;
 }
 
@@ -28,13 +30,13 @@ int contaCaractere (char *aux) {
 		cabecalho();
 		
 		cout << "Digite uma frase: ";
-		cin >> frase;
+		gets(frase);
 		
 		tamanho = contaCaractere(frase);
 		
 		while (frase[0] == '\0' || tamanho > 100) {
 			cout << "Dados invalidos! Digite uma nova frase: ";
-			cin >> frase;
+			gets(frase);
 			
 			tamanho = contaCaractere(frase);
 		}
@@ -47,9 +49,9 @@ int contaCaractere (char *aux) {
 			} else if (frase[aux] == 'I' || frase[aux] == 'i') {
 				nI++;
 			} else if (frase[aux] == 'O' || frase[aux] == 'o') {
-				nI++;
+				nO++;
 			} else if (frase[aux] == 'U' || frase[aux] == 'u') {
-				nI++;
+				nU++;
 			}
 		}
 		

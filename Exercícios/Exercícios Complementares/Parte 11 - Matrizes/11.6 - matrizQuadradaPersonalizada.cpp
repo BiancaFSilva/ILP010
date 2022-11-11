@@ -38,8 +38,8 @@ int main() {
 		
 	// Apresentação dos resultados 
 	cout << "\nMatriz formada: \n\n";
-	for (int l = 0; l < 6; l++) {
-		for (int c = 0; c < 6; c++) {
+	for (int l = 0; l < d; l++) {
+		for (int c = 0; c < d; c++) {
 			cout << m[l][c] << "\t";
 		}	
 		cout << "\n";	 

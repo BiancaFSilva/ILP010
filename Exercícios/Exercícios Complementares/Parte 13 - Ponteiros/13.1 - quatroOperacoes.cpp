@@ -22,12 +22,12 @@ int main() {
 	pnt2 = &m;
 	
 	cout << "Informe o primeiro numero: ";
-	cin >> pnt1;
+	cin >> *pnt1;
 	cout << "Informe o segundo numero: ";
-	cin >> pnt2;
+	cin >> *pnt2;
 	
 	// Apresentação dos resultados 
-	cout << "\n\nSoma: " << ((*pnt1) + (*pnt2));
+	cout << "\nSoma: " << ((*pnt1) + (*pnt2));
 	cout << "\nSubtracao: " << ((*pnt1) - (*pnt2));
 	cout << "\nMultiplicacao: " << ((*pnt1) * (*pnt2));
 	cout << "\nDivisao: " << ((*pnt1) / (*pnt2));

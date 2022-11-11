@@ -14,14 +14,14 @@ int main () {
 	int i, n, c, aux;
 	
 	// Início da lógica de programação
-	do {
-		system("cls");
-			
+	do {		
 		// Cabeçalho
+		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
 		cout << "Digite uma frase: ";
-		cin >> f;
+		gets(f);
 		
 		for (i = 0, c = 0, aux = 0; i <= 30; i++, c++) {
 			if (f[i] != ' ' && f[i] != '\0') {

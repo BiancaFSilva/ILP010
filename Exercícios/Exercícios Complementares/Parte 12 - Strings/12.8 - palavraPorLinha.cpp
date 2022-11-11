@@ -15,17 +15,18 @@ int main () {
 	
 	// Início da lógica de programação
 	do {
-		system("cls");
-			
 		// Cabeçalho
+		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
+		cout << "Utilize \"_\" para dar espaço entre as palavras\n";
 		cout << "Digite uma frase: ";
-		cin >> f;
+		gets(f);
 			
 		// Apresenta??o dos resultados
 		for (int i = 0; i < strlen(f); i++) {
-			if (f[i] == ' ') {
+			if (f[i] == ' ' || f[i] == '_') {
 				cout << "\n";
 			} else {
 				cout << f[i];

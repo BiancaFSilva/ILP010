@@ -13,14 +13,15 @@ int main () {
 	char f[100], op;
 	
 	// Início da lógica de programação
-	do {
-		system("cls");
-			
+	do {		
 		// Cabeçalho
+		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
+		cout << "Utilize \"_\" para dar espaço entre as palavras\n";
 		cout << "Digite uma frase: ";
-		cin >> f;
+		gets(f);
 		
 		for (int i = 0; i <= 100; i++) {
 			if (f[i] == 'A' || f[i] == 'a') {
@@ -37,7 +38,7 @@ int main () {
 		}
 			
 		// Apresenta??o dos resultados
-		cout << "\nA frase codificada e: \n " << f; 
+		cout << "\nA frase codificada e: \n" << f; 
 				
 		cout << "\n\nDeseja inserir outra frase? (S/N) ";
 		cin >> op;
@@ -46,7 +47,5 @@ int main () {
 			cout << "Dados invalidos! Deseja inserir outra frase? (S/N) ";
 			cin >> op;
 		}
-		
-		getchar();
 	} while (op == 'S' || op == 's');
 }

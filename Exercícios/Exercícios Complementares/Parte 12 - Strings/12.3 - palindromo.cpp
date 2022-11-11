@@ -18,10 +18,12 @@ int main () {
 		resp = 0;
 		
 		// Cabeçalho
+		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
 		cout << "Digite uma palavra: ";
-		cin >> p;
+		gets(p);
 		
 		tamanho = strlen(p);
 		i = tamanho;
@@ -35,9 +37,9 @@ int main () {
 		
 		// Apresenta??o dos resultados
 		if (resp == tamanho) {
-			cout << "A palavra \"" << p << "\" e um palíndromo"; 
+			cout << "A palavra \"" << p << "\" e um palindromo"; 
 		} else {
-			cout << "A palavra \"" << p << "\" nao e um palíndromo"; 
+			cout << "A palavra \"" << p << "\" nao e um palindromo"; 
 		}
 		
 		cout << "\n\nDeseja inserir outra frase? (S/N) ";
@@ -46,7 +48,6 @@ int main () {
 		while (op != 'S' && op != 's' && op != 'N' && op != 'n') {
 			cout << "Dados invalidos! Deseja inserir outra frase? (S/N) ";
 			cin >> op;
-		}
-		system("cls");
+		}		
 	} while (op == 'S' || op == 's');
 }

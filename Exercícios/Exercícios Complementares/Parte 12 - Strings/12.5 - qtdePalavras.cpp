@@ -14,18 +14,19 @@ int main () {
 	int aux;
 	
 	// Início da lógica de programação
-	do {
-		system("cls");
+	do {		
 		aux = 1;
 			
 		// Cabeçalho
+		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
 		cout << "Digite uma frase: ";
-		cin >> f;
+		gets(f);
 		
-		for (int i = 0; i <= 0; i++) {
-			if (f[i] == ' ') {
+		for (int i = 0; i <= 50; i++) {
+			if (f[i] == ' ' || f[i] == '_') {
 				aux++;
 			}
 		}
@@ -40,7 +41,5 @@ int main () {
 			cout << "Dados invalidos! Deseja inserir outra frase? (S/N) ";
 			cin >> op;
 		}
-		
-		getchar();
 	} while (op == 'S' || op == 's');
 }

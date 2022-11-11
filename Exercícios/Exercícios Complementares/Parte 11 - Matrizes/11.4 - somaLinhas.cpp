@@ -34,7 +34,7 @@ int main() {
 		
 	// Apresentação dos resultados 
 	cout << "\nMatriz formada: \n\n";
-	for (int l = 0; l < 6; l++) {
+	for (int l = 0; l < 8; l++) {
 		for (int c = 0; c < 6; c++) {
 			cout << m[l][c] << "\t";
 		}	
@@ -42,7 +42,7 @@ int main() {
 	}
 	
 	cout << "\n\n";
-	for (int i = 0; i < 8; i++) {
+	for (int i = 0; i < 4; i++) {
 		cout << "\nSoma dos valores da " << (i + 1) << ".a linha: " << s[i];
 	}
 }

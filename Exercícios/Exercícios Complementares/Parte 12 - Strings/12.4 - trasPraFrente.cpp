@@ -16,6 +16,8 @@ int main () {
 	// Início da lógica de programação
 	do {		
 		// Cabeçalho
+		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
 		cout << "Digite uma palavra: ";
@@ -42,6 +44,5 @@ int main () {
 			cout << "Dados invalidos! Deseja inserir outra frase? (S/N) ";
 			cin >> op;
 		}
-		system("cls");
 	} while (op == 'S' || op == 's');
 }

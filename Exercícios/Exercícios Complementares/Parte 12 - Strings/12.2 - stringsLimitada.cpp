@@ -8,14 +8,7 @@ void cabecalho() {
 	cout << "Bianca Letícia Floriano da Silva\n\n\n";
 }
 
-int contaCaractere (char *aux) {
-	int i = 0;
-	
-	while (aux[i] != '\0') { i++; }
-	return i;
-}
-
-	int main () {
+int main () {
 	// Declaração de variáveis
 	char frase[60], frase2[60], op;
 	int i, tamanho, qtde1, qtde2;
@@ -25,15 +18,17 @@ int contaCaractere (char *aux) {
 		tamanho = 0;
 		
 		// Cabeçalho
+		system("cls");
+		fflush(stdin);
 		cabecalho();
 		
 		cout << "Digite a primeira frase: ";
-		cin >> frase;
+		gets(frase);
 		cout << "Digite a segunda frase: ";
-		cin >> frase2;
+		gets(frase2);
 		
-		qtde1 = contaCaractere(frase);
-		qtde2 = contaCaractere(frase2);
+		qtde1 = strlen(frase);
+		qtde2 = strlen(frase2);
 		
 		if (qtde1 == qtde2) {
 			for (int i = 0; i < qtde1; i++) {
@@ -46,8 +41,10 @@ int contaCaractere (char *aux) {
 		}
 		
 		// Apresenta??o dos resultados
-		if (qtde1 == qtde2) {
-			cout << "As frases são iguais \n" << frase;
+		if (qtde2 == tamanho ) {
+			cout << "\nAs frases são iguais \n" << frase;
+		} else {
+			cout << "\nAs frases são diferentes \n" << frase << "\n" << frase2;
 		}
 		
 		cout << "\n\nDeseja inserir outra frase? (S/N) ";
