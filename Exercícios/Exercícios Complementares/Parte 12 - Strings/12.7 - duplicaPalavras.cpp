@@ -3,41 +3,39 @@
 using namespace std;
 
 void cabecalho() {
-	cout << "Fatec São Caetano do Sul - Antonio Russo\n";
-	cout << "ADSMA2, ILP010 - Linguagem de Programação\n";
-	cout << "Bianca Letícia Floriano da Silva\n\n\n";
+	cout << "Fatec Sao Caetano do Sul - Antonio Russo\n";
+	cout << "ADSMA2, ILP010 - Linguagem de Programacao\n";
+	cout << "Bianca Leticia Floriano da Silva\n\n\n";
 }
 
 int main () {
-	// Declaração de variáveis
-	char f[30], v[60], op;
-	int i, n, c, aux;
+	// DeclaraÃ§Ã£o de variÃ¡veis
+	char frase[30],frasef[60], op;
+	int cont, cont2, contff, auxcont;
 	
-	// Início da lógica de programação
-	do {		
-		// Cabeçalho
+	// InÃ­cio da lÃ³gica de programaÃ§Ã£o
+	do {	
+		// CabeÃ§alho
 		system("cls");
 		fflush(stdin);
 		cabecalho();
 		
 		cout << "Digite uma frase: ";
-		gets(f);
+		gets(frase);
 		
-		for (i = 0, c = 0, aux = 0; i <= 30; i++, c++) {
-			if (f[i] != ' ' && f[i] != '\0') {
-				f[c] = f[i];
-			} else if (v[c - 1] != '\0') {
-				for (n = aux; n < i; c++, n++) {
-					v[c] = f[n];
-					v[c] = f[i];
-					
-					aux = i + 1;
-				}
-			} 
+		for (cont = 0, contff = 0, auxcont = 0; cont < 30; cont++, contff++) {
+			if ((frase[cont] != ' ') && (frase[cont] != '\0')) {
+				frasef[contff] = frase[cont];
+			} else if (frasef[contff - 1] != '\0') {
+				for(cont2 = auxcont; cont2 < cont; contff++, cont2++) 
+					frasef[contff] = frase[cont2];
+					frasef[contff] = frase[cont];
+					auxcont = cont + 1;			
+			}
 		}
 			
 		// Apresenta??o dos resultados
-		cout << "\nA frase digitada e: \n " << v; 
+		cout << "\nA frase digitada e: \n" << frasef; 
 				
 		cout << "\n\nDeseja inserir outra frase? (S/N) ";
 		cin >> op;
@@ -45,8 +43,7 @@ int main () {
 		while (op != 'S' && op != 's' && op != 'N' && op != 'n') {
 			cout << "Dados invalidos! Deseja inserir outra frase? (S/N) ";
 			cin >> op;
-		}
-		
+		}		
 		getchar();
 	} while (op == 'S' || op == 's');
 }
